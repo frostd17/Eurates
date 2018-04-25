@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214EE6D8208CD3590047B7C2 /* RatesTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EE6D7208CD3590047B7C2 /* RatesTVController.swift */; };
+		214EE6DB208CE03F0047B7C2 /* RatesTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EE6D9208CE03F0047B7C2 /* RatesTVCell.swift */; };
+		214EE6DC208CE03F0047B7C2 /* RatesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 214EE6DA208CE03F0047B7C2 /* RatesTVCell.xib */; };
+		214EE6E1208DCEF90047B7C2 /* SavedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214EE6E0208DCEF90047B7C2 /* SavedController.swift */; };
 		21A64A37208644DA00C158E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A64A36208644DA00C158E0 /* AppDelegate.swift */; };
-		21A64A39208644DA00C158E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A64A38208644DA00C158E0 /* ViewController.swift */; };
+		21A64A39208644DA00C158E0 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A64A38208644DA00C158E0 /* WelcomeController.swift */; };
 		21A64A3C208644DA00C158E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A64A3A208644DA00C158E0 /* Main.storyboard */; };
 		21A64A3E208644E200C158E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A64A3D208644E200C158E0 /* Assets.xcassets */; };
 		21A64A41208644E200C158E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A64A3F208644E200C158E0 /* LaunchScreen.storyboard */; };
+		21A64A4C2086586A00C158E0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A64A4B2086586A00C158E0 /* LoginController.swift */; };
+		21A64A4E2086588100C158E0 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A64A4D2086588100C158E0 /* RegisterController.swift */; };
+		21A91C8720879B3A006A8F27 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A91C8620879B3A006A8F27 /* Currency.swift */; };
+		21A91C8E2087C537006A8F27 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21A91C8B2087C537006A8F27 /* ProgressHUD.bundle */; };
+		21A91C8F2087C537006A8F27 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A91C8C2087C537006A8F27 /* ProgressHUD.m */; };
+		21B96EC820876B2600EA1A5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21B96EC720876B2600EA1A5F /* GoogleService-Info.plist */; };
+		D56994C7DE833B9E550DAA6E /* Pods_Eurates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842EA18D941709735521DC49 /* Pods_Eurates.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		214EE6D7208CD3590047B7C2 /* RatesTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesTVController.swift; sourceTree = "<group>"; };
+		214EE6D9208CE03F0047B7C2 /* RatesTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RatesTVCell.swift; path = "Eurates/View/New Group/RatesTVCell.swift"; sourceTree = SOURCE_ROOT; };
+		214EE6DA208CE03F0047B7C2 /* RatesTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RatesTVCell.xib; path = "Eurates/View/New Group/RatesTVCell.xib"; sourceTree = SOURCE_ROOT; };
+		214EE6E0208DCEF90047B7C2 /* SavedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedController.swift; sourceTree = "<group>"; };
 		21A64A33208644DA00C158E0 /* Eurates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eurates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A64A36208644DA00C158E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21A64A38208644DA00C158E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21A64A38208644DA00C158E0 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		21A64A3B208644DA00C158E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21A64A3D208644E200C158E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21A64A40208644E200C158E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21A64A42208644E200C158E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A64A4B2086586A00C158E0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		21A64A4D2086588100C158E0 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		21A91C8620879B3A006A8F27 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		21A91C8A2087C536006A8F27 /* Eurates-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eurates-Bridging-Header.h"; sourceTree = "<group>"; };
+		21A91C8B2087C537006A8F27 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		21A91C8C2087C537006A8F27 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		21A91C8D2087C537006A8F27 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		21B96EC720876B2600EA1A5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Eurates/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5B2BEA5DBBCC24BBCA44791B /* Pods-Eurates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eurates.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eurates/Pods-Eurates.debug.xcconfig"; sourceTree = "<group>"; };
+		7B21BFD0653ECEE2539A520E /* Pods-Eurates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eurates.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eurates/Pods-Eurates.release.xcconfig"; sourceTree = "<group>"; };
+		842EA18D941709735521DC49 /* Pods_Eurates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eurates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56994C7DE833B9E550DAA6E /* Pods_Eurates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214EE6DD208CE0540047B7C2 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				214EE6D9208CE03F0047B7C2 /* RatesTVCell.swift */,
+				214EE6DA208CE03F0047B7C2 /* RatesTVCell.xib */,
+			);
+			name = "Custom Cell";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		21A64A2A208644DA00C158E0 = {
 			isa = PBXGroup;
 			children = (
 				21A64A35208644DA00C158E0 /* Eurates */,
 				21A64A34208644DA00C158E0 /* Products */,
+				97557069BD9B9DE472A962B0 /* Pods */,
+				28F21F5F3F5B1E3D3C69D907 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,82 @@
 		21A64A35208644DA00C158E0 /* Eurates */ = {
 			isa = PBXGroup;
 			children = (
-				21A64A36208644DA00C158E0 /* AppDelegate.swift */,
-				21A64A38208644DA00C158E0 /* ViewController.swift */,
-				21A64A3A208644DA00C158E0 /* Main.storyboard */,
+				21A64A48208646A500C158E0 /* Model */,
+				21A64A49208646B200C158E0 /* View */,
+				21A64A4A208646B800C158E0 /* Controller */,
+				21A91C882087C4E2006A8F27 /* Supporting Files */,
 				21A64A3D208644E200C158E0 /* Assets.xcassets */,
-				21A64A3F208644E200C158E0 /* LaunchScreen.storyboard */,
 				21A64A42208644E200C158E0 /* Info.plist */,
+				21B96EC720876B2600EA1A5F /* GoogleService-Info.plist */,
 			);
 			path = Eurates;
+			sourceTree = "<group>";
+		};
+		21A64A48208646A500C158E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21A91C8620879B3A006A8F27 /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21A64A49208646B200C158E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				214EE6DD208CE0540047B7C2 /* Custom Cell */,
+				21A64A3A208644DA00C158E0 /* Main.storyboard */,
+				21A64A3F208644E200C158E0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21A64A4A208646B800C158E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21A64A36208644DA00C158E0 /* AppDelegate.swift */,
+				21A64A38208644DA00C158E0 /* WelcomeController.swift */,
+				214EE6E0208DCEF90047B7C2 /* SavedController.swift */,
+				214EE6D7208CD3590047B7C2 /* RatesTVController.swift */,
+				21A64A4B2086586A00C158E0 /* LoginController.swift */,
+				21A64A4D2086588100C158E0 /* RegisterController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		21A91C882087C4E2006A8F27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A91C892087C508006A8F27 /* ProgressHUD */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21A91C892087C508006A8F27 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				21A91C8B2087C537006A8F27 /* ProgressHUD.bundle */,
+				21A91C8D2087C537006A8F27 /* ProgressHUD.h */,
+				21A91C8C2087C537006A8F27 /* ProgressHUD.m */,
+				21A91C8A2087C536006A8F27 /* Eurates-Bridging-Header.h */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		28F21F5F3F5B1E3D3C69D907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842EA18D941709735521DC49 /* Pods_Eurates.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97557069BD9B9DE472A962B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B2BEA5DBBCC24BBCA44791B /* Pods-Eurates.debug.xcconfig */,
+				7B21BFD0653ECEE2539A520E /* Pods-Eurates.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21A64A45208644E200C158E0 /* Build configuration list for PBXNativeTarget "Eurates" */;
 			buildPhases = (
+				0AB82110E19C054A007A810A /* [CP] Check Pods Manifest.lock */,
 				21A64A2F208644DA00C158E0 /* Sources */,
 				21A64A30208644DA00C158E0 /* Frameworks */,
 				21A64A31208644DA00C158E0 /* Resources */,
+				6D83974779802F9EB9B07565 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +205,7 @@
 				TargetAttributes = {
 					21A64A32208644DA00C158E0 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -123,20 +233,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A64A41208644E200C158E0 /* LaunchScreen.storyboard in Resources */,
+				214EE6DC208CE03F0047B7C2 /* RatesTVCell.xib in Resources */,
+				21B96EC820876B2600EA1A5F /* GoogleService-Info.plist in Resources */,
 				21A64A3E208644E200C158E0 /* Assets.xcassets in Resources */,
+				21A91C8E2087C537006A8F27 /* ProgressHUD.bundle in Resources */,
 				21A64A3C208644DA00C158E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AB82110E19C054A007A810A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eurates-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D83974779802F9EB9B07565 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eurates/Pods-Eurates-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eurates/Pods-Eurates-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21A64A2F208644DA00C158E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21A64A39208644DA00C158E0 /* ViewController.swift in Sources */,
+				21A91C8720879B3A006A8F27 /* Currency.swift in Sources */,
+				21A64A4E2086588100C158E0 /* RegisterController.swift in Sources */,
+				21A64A39208644DA00C158E0 /* WelcomeController.swift in Sources */,
+				214EE6DB208CE03F0047B7C2 /* RatesTVCell.swift in Sources */,
+				21A91C8F2087C537006A8F27 /* ProgressHUD.m in Sources */,
+				21A64A4C2086586A00C158E0 /* LoginController.swift in Sources */,
+				214EE6E1208DCEF90047B7C2 /* SavedController.swift in Sources */,
 				21A64A37208644DA00C158E0 /* AppDelegate.swift in Sources */,
+				214EE6D8208CD3590047B7C2 /* RatesTVController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +447,10 @@
 		};
 		21A64A46208644E200C158E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2BEA5DBBCC24BBCA44791B /* Pods-Eurates.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3D829724MC;
 				INFOPLIST_FILE = Eurates/Info.plist;
@@ -287,17 +458,21 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = frostd.Eurates;
+				PRODUCT_BUNDLE_IDENTIFIER = frostd.AnimalSounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eurates/Supporting Files/ProgressHUD/Eurates-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		21A64A47208644E200C158E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B21BFD0653ECEE2539A520E /* Pods-Eurates.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3D829724MC;
 				INFOPLIST_FILE = Eurates/Info.plist;
@@ -305,10 +480,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = frostd.Eurates;
+				PRODUCT_BUNDLE_IDENTIFIER = frostd.AnimalSounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eurates/Supporting Files/ProgressHUD/Eurates-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
